@@ -5,7 +5,7 @@ const fs = require('fs')
 const { promisify } = require('util')
 const readFile = promisify(fs.readFile)
 
-const stylefile = './css/mdstyle.css'
+const stylefile = './mdstyle.css'
 var cssstr = ''
 readFile(stylefile).then(data => {
   cssstr = data.toString()
