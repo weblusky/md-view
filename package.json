@@ -5,7 +5,7 @@
   "scripts": {
     "start": "ws"
   },
-  "author": "",
+  "author": "weblusky",
   "license": "ISC",
   "dependencies": {
     "local-web-server": "^5.1.1",
