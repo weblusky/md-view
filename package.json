@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A sample server for view markdown files",
   "scripts": {
-    "start": "ws"
+    "start": "ws",
+    "start8002": "ws -p 8002"
   },
   "author": "weblusky",
   "license": "ISC",
